@@ -9,6 +9,14 @@ This project provides a minimal React template with a clean, modern UI and minim
 - **Fast**: Minimal dependencies for quick loading times
 - **Simple**: Easy to understand and modify
 
+## Environment
+
+Create a `.env` file based on `.env.example` and set:
+
+- `REACT_APP_API_BASE_URL=http://localhost:4000`
+
+The frontend expects the backend to expose versioned routes under `/api/v1/notes` (e.g., `GET http://localhost:4000/api/v1/notes`).
+
 ## Getting Started
 
 In the project directory, you can run:
